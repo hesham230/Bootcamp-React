@@ -1,18 +1,27 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+// import React, { Component } from 'react';
+// import './style.css';
 
-const Buttons = (props) => {
-  const styleObj = {
-    fontWeight: "bold",
+// const Buttons = (props) => {
+//   return(
+//     <div className="wrapper">
+//       <button className={props.classes ?props.classes.join(' '):null}>{props.text}</button>
+//     </div>
+//   )
+// }
+
+import React, { Component } from 'react'
+import './style.css';
+
+class Buttons extends Component {
+  
+  render() {
+    return (
+      <div>
+        <button className={this.props.classes ?this.props.classes.join(' '):null}>{this.props.text}</button>
+      </div>
+    )
+  }
 }
 
-  return (
-    <div>
-    <button style={styleObj}>Importnat</button>
-    
-    <button>Not Important</button>
-    </div>
-  )
-}
+export default Buttons
 
-export default Buttons;

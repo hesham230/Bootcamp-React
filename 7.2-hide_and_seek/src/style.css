@@ -1,0 +1,17 @@
+.box{
+  border: 2px solid #333;
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+  margin: auto;
+}
+.btn{
+  padding: 2px;
+  margin: 5px;
+}
+.inner-box{
+  width: 140px;
+  height: 150px;
+  padding: 3px;
+  background: yellow;
+}
