@@ -1,0 +1,14 @@
+body{
+  background: cornflowerblue;
+}
+
+.container{
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.joke-color{
+  color: #fff;
+}
+

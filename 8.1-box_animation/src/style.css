@@ -1,0 +1,26 @@
+.box {
+  background: mediumvioletred;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 0;
+}
+
+.pop-in {
+  -webkit-animation: popinanim 1s ease-in;
+}   
+
+.pop-out {
+  -webkit-animation: popinanim 1s ease-in;
+  animation-direction: reverse;
+}
+
+@-webkit-keyframes popinanim {
+  0% {
+      left: -200px;
+  }
+  100% {
+      right: 0px;
+  }
+}
